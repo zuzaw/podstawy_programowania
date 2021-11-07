@@ -43,13 +43,22 @@ public class Main {
 //            }
 //        }
 // }
-        Scanner skaner = new Scanner(System.in);
-        System.out.println("Podaj imie");
-        String userInputName = skaner.nextLine();
-        System.out.println("Podaj nazwisko");
-        String userInputSurname = skaner.nextLine();
-        System.out.println("Witaj" + userInputName + " " + userInputSurname +"!");
+//        Scanner skaner = new Scanner(System.in);
+//        System.out.println("Podaj imie");
+//        String userInputName = skaner.nextLine();
+//        System.out.println("Podaj nazwisko");
+//        String userInputSurname = skaner.nextLine();
+//        System.out.println("Witaj" + userInputName + " " + userInputSurname +"!");
 
-
+    int number = 3;
+    int number2;
+        System.out.println(number++);
+        System.out.println(++number);
+        System.out.println(number);
+        number2 = number++;
+        System.out.println(number2);
+        number2 = ++number;
+        System.out.println(number2);
+        System.out.println(++number2);
     }
 }
