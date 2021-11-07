@@ -1,7 +1,7 @@
 public class Main {
     public static void main(String[] args) {
-//        int liczba = 5;
-//        int liczba2 = 2;
+        int liczba = 5;
+        int liczba2 = 2;
 //        System.out.print("Hello world"+liczba);
 //
 //        System.out.println(liczba%liczba2);
@@ -32,6 +32,15 @@ public class Main {
         System.out.println(witaj);
         Character.isDigit(a);
         System.out.println(Character.isDigit(a));
+
+        if (liczba>liczba2 | liczba2==liczba){
+            System.out.println("program_dziala");
+        }else{
+            System.out.println("program_niedziala");
+            if (liczba==liczba2){
+                System.out.println("system_dziala");
+            }
+        }
     }
 
 }
